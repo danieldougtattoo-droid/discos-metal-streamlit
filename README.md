@@ -1,25 +1,44 @@
-# Python Simples  
+# Discos de Metal 🤘
 
- Este é um projeto de estudo em Python.
+Aplicação web desenvolvida com **Streamlit** para cadastro e gerenciamento de discos de metal.
 
-<img src="img/dragao.jpg"alt="Logo Dragão" width="300">
-
- </div>
----
-
-## Tecnologias utilizadas
-
-**Python 3**
-**VS Code**
-**Git & GitHub**
+Projeto focado em organização de dados, persistência com banco local e interface simples para CRUD básico.
 
 ---
 
-## Como executar o projeto
+## 🚀 Funcionalidades
+
+- Cadastro de discos (banda, álbum, ano de lançamento e nota)
+- Listagem dos discos em tabela
+- Exclusão de discos
+- Persistência de dados com SQLite
+- Interface web simples e objetiva
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Python
+- Streamlit
+- Pandas
+- SQLite
+
+---
+
+## ▶️ Como executar o projeto
 
 1. Clone o repositório:
 
 ```bash
-git clone
-http://github.com/seuusuario/seurepositorio.git
+git clone https://github.com/danieldougtattoo-droid/discos-metal-streamlit.git
+Instale as dependências:
+pip install -r requirements.txt
+Execute a aplicação:
+streamlit run app.py
+📌 Observações
+Este projeto foi desenvolvido com foco em aprendizado prático de:
 
+Streamlit
+Organização de código
+Integração com banco de dados SQLite
+Versionamento com Git e GitHub
