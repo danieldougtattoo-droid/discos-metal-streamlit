@@ -10,6 +10,7 @@ Projeto focado em organização de dados, persistência com banco local e interf
 
 - Cadastro de discos (banda, álbum, ano de lançamento e nota)
 - Listagem dos discos em tabela
+- Editar discos por ID
 - Exclusão de discos
 - Persistência de dados com SQLite
 - Interface web simples e objetiva
@@ -32,6 +33,7 @@ Projeto focado em organização de dados, persistência com banco local e interf
 ```bash
 git clone https://github.com/danieldougtattoo-droid/discos-metal-streamlit.git
 Instale as dependências:
+cd discos-metal-streamlit.git
 pip install -r requirements.txt
 Execute a aplicação:
 streamlit run app.py
